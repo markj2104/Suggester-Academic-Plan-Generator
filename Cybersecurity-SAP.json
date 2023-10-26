@@ -1,0 +1,222 @@
+{
+    "Program of Study": "Cybersecurity Analytics and Operations",
+    "SAP": [
+      {
+        "1st year": [
+          {
+            "course": "CYBER 100/CYBER 100S",
+            "credits": "3",
+            "type": "Core"
+          },
+          {
+            "course": "IST 140",
+            "credits": "3",
+            "type": "Core"
+          },
+          {
+            "course": "SRA 111",
+            "credits": "3",
+            "type": "Core"
+          },
+          {
+            "course": "IST 210",
+            "credits": "3",
+            "type": "Core"
+          },
+          {
+            "course": "IST 220",
+            "credits": "3",
+            "type": "Core"
+          },
+          {
+            "course": "MATH 110",
+            "credits": "4",
+            "type": "Major & Gen Ed"
+          },
+          {
+            "course": "ENGL 15/ENGL 30H",
+            "credits": "3",
+            "type": "Major & Gen Ed"
+          },
+          {
+            "course": "CAS 100",
+            "credits": "3",
+            "type": "Major & Gen Ed"
+          },
+          {
+            "course": "Gen Ed GA/GS/GH/GN",
+            "credits": "3",
+            "type": "Gen Ed"
+          },
+          {
+            "course": "Gen Ed GA/GS/GH/GN",
+            "credits": "3",
+            "type": "Gen Ed"
+          }
+        ]
+      },
+      {
+        "2nd year": [
+          {
+            "course": "IST 230",
+            "credits": "3",
+            "type": "Core"
+          },
+          {
+            "course": "CYBER 262",
+            "credits": "3",
+            "type": "Core"
+          },
+          {
+            "course": "IST 242",
+            "credits": "3",
+            "type": "Core"
+          },
+          {
+            "course": "SRA 221",
+            "credits": "3",
+            "type": "Core"
+          },
+          {
+            "course": "STAT 200/DS 200",
+            "credits": "4",
+            "type": "Major & Gen Ed"
+          },
+          {
+            "course": "SRA 211",
+            "credits": "3",
+            "type": "Core"
+          },
+          {
+            "course": "IST 261",
+            "credits": "3",
+            "type": "Core"
+          },
+          {
+            "course": "Application Focus Selection 1",
+            "credits": "3",
+            "type": "Major & Gen Ed"
+          },
+          {
+            "course": "Gen Ed GA/GS/GH/GN",
+            "credits": "3",
+            "type": "Gen Ed"
+          },
+          {
+            "course": "Gen Ed GA/GS/GH/GN",
+            "credits": "3",
+            "type": "Gen Ed"
+          }
+        ]
+      },
+      {
+        "3rd year": [
+          {
+            "course": "CYBER 362",
+            "credits": "3",
+            "type": "Core"
+          },
+          {
+            "course": "SRA 231",
+            "credits": "3",
+            "type": "Core"
+          },
+          {
+            "course": "SRA 365",
+            "credits": "3",
+            "type": "Core"
+          },
+          {
+            "course": "CYBER 342W",
+            "credits": "3",
+            "type": "Core"
+          },
+          {
+            "course": "CYBER 366",
+            "credits": "3",
+            "type": "Core"
+          },
+          {
+            "course": "SRA 311",
+            "credits": "3",
+            "type": "Core"
+          },
+          {
+            "course": "Application Focus Selection 2",
+            "credits": "3",
+            "type": "Core"
+          },
+          {
+            "course": "ENGL 202C/ENG 202D",
+            "credits": "3",
+            "type": "Gen Ed"
+          },
+          {
+            "course": "Gen Ed GA/GS/GH/GN",
+            "credits": "3",
+            "type": "Gen Ed"
+          },
+          {
+            "course": "Gen Ed GA/GS/GH/GN",
+            "credits": "3",
+            "type": "Gen Ed"
+          }
+        ]
+      },
+      {
+        "4th year": [
+          {
+            "course": "IST 432",
+            "credits": "3",
+            "type": "Core"
+          },
+          {
+            "course": "IST 456",
+            "credits": "3",
+            "type": "Core"
+          },
+          {
+            "course": "IST 451",
+            "credits": "3",
+            "type": "Core"
+          },
+          {
+            "course": "CYBER 440)",
+            "credits": "3",
+            "type": "Core"
+          },
+          {
+            "course": "IST 454",
+            "credits": "3",
+            "type": "Core"
+          },
+          {
+            "course": "Application Focus Selection 3",
+            "credits": "3",
+            "type": "Core"
+          },
+          {
+            "course": "Gen Ed GA/GS/GH/GN",
+            "credits": "3",
+            "type": "Gen Ed"
+          },
+          {
+            "course": "Gen Ed GA/GS/GH/GN",
+            "credits": "3",
+            "type": "Gen Ed"
+          },
+          {
+            "course": "Gen Ed GA/GS/GH/GN",
+            "credits": "3",
+            "type": "Gen Ed"
+          },
+          {
+            "course": "Elective",
+            "credits": "1-3",
+            "type": "Elective"
+          }
+        ]
+      }
+    ]
+  }
+  
