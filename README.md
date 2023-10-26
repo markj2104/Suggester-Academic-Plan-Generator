@@ -1,2 +1,2 @@
 # Suggester-Academic-Plan-Generator
-The Suggested Academic Plan (SAP) Generator will be coded in Python. The Python code creates a diagram that will give students a suggested academic plan by pulling course names, course types, and course credits from a JSON file. 
+The Suggested Academic Plan (SAP) Generator will be coded in Python. The Python code creates a diagram that will give students a suggested academic plan by pulling course names, course types, and course credits from a JSON file. To run the code, replace "academic_plan.json" with the actual .json file name you want to import data from. Make sure your .json file and python project are in the same directory. 
