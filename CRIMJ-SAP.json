@@ -1,0 +1,221 @@
+{
+  "Program of Study": "Criminal Justice",
+  "SAP": [
+    {
+      "1st year": [
+        {
+          "course": "CRIMJ 100",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "CRIMJ 12/SOC 12 Criminology",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "CRIMJ 210/220/230",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "ENGL 15/30H",
+          "credits": "3",
+          "type": "Gen Ed"
+        },
+        {
+          "course": "Gen Ed GA/GS/GH/GN",
+          "credits": "3",
+          "type": "Gen Ed"
+        },
+        {
+          "course": "CAS 100A/B",
+          "credits": "3",
+          "type": "Gen Ed"
+        },
+        {
+          "course": "Gen Ed GA/GS/GH/GN",
+          "credits": "3",
+          "type": "Gen Ed"
+        },
+        {
+          "course": "Gen Ed (GQ)",
+          "credits": "3",
+          "type": "Gen Ed"
+        },
+        {
+          "course": "Gen Ed GA/GS/GH/GN",
+          "credits": "3",
+          "type": "Gen Ed"
+        },
+        {
+          "course": "Elective",
+          "credits": "3",
+          "type": "Elective"
+        }
+      ]
+    },
+    {
+      "2nd year": [
+        {
+          "course": "CRIMJ 210/220/230",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "CRIMJ 210/220/230",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "PHIL 103, BA 243, or CRIMJ 465",
+          "credits": "3-4",
+          "type": "Core"
+        },
+        {
+          "course": "SOC 119N/CRIMJ 451",
+          "credits": "3-4",
+          "type": "Core"
+        },
+        {
+          "course": "STAT 200/PSYCH 200",
+          "credits": "4",
+          "type": "Major & Gen Ed"
+        },
+        {
+          "course": "ENGL 202",
+          "credits": "3",
+          "type": "Gen Ed"
+        },
+        {
+          "course": "Gen Ed GA/GS/GH/GN",
+          "credits": "3",
+          "type": "Gen Ed"
+        },
+        {
+          "course": "Gen Ed GA/GS/GH/GN",
+          "credits": "3",
+          "type": "Gen Ed"
+        },
+        {
+          "course": "Gen Ed GA/GS/GH/GN",
+          "credits": "3",
+          "type": "Gen Ed"
+        },
+        {
+          "course": "Elective",
+          "credits": "3",
+          "type": "Elective"
+        }
+      ]
+    },
+    {
+      "3rd year": [
+        {
+          "course": "CRIMJ 290 Intro to Fieldwork",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "CRIMJ 250W Research Methods",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "CRIMJ 400 level course",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "CRIMJ 441",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "Skills Enhancement Course",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "Skills Enhancement Course",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "Gen Ed GA/GS/GH/GN",
+          "credits": "3",
+          "type": "Gen Ed"
+        },
+        {
+          "course": "Elective",
+          "credits": "3",
+          "type": "Elective"
+        },
+        {
+          "course": "Elective",
+          "credits": "3",
+          "type": "Elective"
+        },
+        {
+          "course": "Elective",
+          "credits": "3",
+          "type": "Elective"
+        }
+      ]
+    },
+    {
+      "4th year": [
+        {
+          "course": "CRIMJ 495 Internship",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "CRIMJ 450W Senior Sem. (last semester)",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "CRIMJ 400 level course",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "CRIMJ 400 level course",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "Skills Enhancement Course",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "Skills Enhancement Course",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "Elective",
+          "credits": "3",
+          "type": "Elective"
+        },
+        {
+          "course": "Elective",
+          "credits": "3",
+          "type": "Elective"
+        },
+        {
+          "course": "Elective",
+          "credits": "3",
+          "type": "Elective"
+        },
+        {
+          "course": "Elective",
+          "credits": "1-3",
+          "type": "Elective"
+        }
+      ]
+    }
+  ]
+}
