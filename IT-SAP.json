@@ -1,0 +1,221 @@
+{
+  "Program of Study": "Information Technology: Business Applications Option",
+  "SAP": [
+    {
+      "1st year": [
+        {
+          "course": "IST 110/CYBER 100",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "IST 140/CMPSC 121/CMPSC 131",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "SRA 111",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "IST 210",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "IST 220",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "MATH 110/MATH 140",
+          "credits": "4",
+          "type": "Major & Gen Ed"
+        },
+        {
+          "course": "ENGL 15/ENGL 30H",
+          "credits": "3",
+          "type": "Major & Gen Ed"
+        },
+        {
+          "course": "IST 111S",
+          "credits": "1",
+          "type": "Major & Gen Ed"
+        },
+        {
+          "course": "Gen Ed GA/GS/GH/GN",
+          "credits": "3",
+          "type": "Gen Ed"
+        },
+        {
+          "course": "Elective",
+          "credits": "3",
+          "type": "Elective"
+        }
+      ]
+    },
+    {
+      "2nd year": [
+        {
+          "course": "IST 230",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "IST 256",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "IST 242",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "SRA 221",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "STAT 200/SCM 200/DS 200",
+          "credits": "4",
+          "type": "Major & Gen Ed"
+        },
+        {
+          "course": "ECON 102/ECON 104/PSYCH 100/SOC 5/PLSC 1/ PLSC 14",
+          "credits": "3",
+          "type": "Major & Gen Ed"
+        },
+        {
+          "course": "ENGL 202C/ENGL 202D",
+          "credits": "3",
+          "type": "Major & Gen Ed"
+        },
+        {
+          "course": "Business Selection",
+          "credits": "3",
+          "type": "Major & Gen Ed"
+        },
+        {
+          "course": "Gen Ed GA/GS/GH/GN",
+          "credits": "3",
+          "type": "Gen Ed"
+        },
+        {
+          "course": "Elective",
+          "credits": "3",
+          "type": "Elective"
+        }
+      ]
+    },
+    {
+      "3rd year": [
+        {
+          "course": "IST 302",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "IST 331",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "IST 260W",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "FIN 301/MGMT 301/MKTG 301/SCM 301 (Option 2)",
+          "credits": "3",
+          "type": "Major & Gen Ed"
+        },
+        {
+          "course": "ACCTG 211 (Option 1)",
+          "credits": "4",
+          "type": "Major & Gen Ed"
+        },
+        {
+          "course": "Advanced IT Selection - Business Option",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "Networking Selection",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "Gen Ed GA/GS/GH/GN",
+          "credits": "3",
+          "type": "Gen Ed"
+        },
+        {
+          "course": "Gen Ed GA/GS/GH/GN",
+          "credits": "3",
+          "type": "Gen Ed"
+        },
+        {
+          "course": "Gen Ed GA/GS/GH/GN",
+          "credits": "3",
+          "type": "Gen Ed"
+        }
+      ]
+    },
+    {
+      "4th year": [
+        {
+          "course": "IST 495",
+          "credits": "1",
+          "type": "Core"
+        },
+        {
+          "course": "ETI 461",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "IST 440W",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "400-Level Business Course (Option 4)",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "Option 3 (Business Couse)",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "IST 446/MIS 404 (Advanced IT Selection)",
+          "credits": "3",
+          "type": "Core"
+        },
+        {
+          "course": "Gen Ed GA/GS/GH/GN",
+          "credits": "3",
+          "type": "Gen Ed"
+        },
+        {
+          "course": "Gen Ed GA/GS/GH/GN",
+          "credits": "3",
+          "type": "Gen Ed"
+        },
+        {
+          "course": "Elective",
+          "credits": "3",
+          "type": "Elective"
+        },
+        {
+          "course": "Elective",
+          "credits": "1-3",
+          "type": "Elective"
+        }
+      ]
+    }
+  ]
+}
