@@ -3,9 +3,8 @@ import matplotlib.pyplot as plt
 import textwrap
 from matplotlib.patches import FancyBboxPatch
 
-# Load the JSON data
-with open("academic_plan.json", "r") as json_file:
-    data = json.load(json_file)
+# List of JSON filenames to process
+json_filenames = ["IT-SAP.json", "Cybersecurity-SAP.json", "CRIMJ-SAP.json"]
 
 # Create a dictionary to map course types to colors
 color_mapping = {
@@ -18,20 +17,8 @@ color_mapping = {
 # Define the number of columns and the number of classes per column
 num_columns = 4
 
-# Calculate the total width for all columns
-total_width = 7.0  # Adjusted total width for 4 columns
-
-# Calculate the width and height of the squares and the spacing
-column_width = total_width / num_columns
-square_width = column_width / 2.2  # Adjusted for 2 vertical columns of 5 boxes each
-square_height = 0.8
-spacing = (column_width - (square_width * 1)) / 9  # Increased spacing
-
-# Define the academic years
-academic_years = ["1st year", "2nd year", "3rd year", "4th year"]
-
-# Function to create a year column with organized layout
-def create_year_column(ax, year_data, year_label, x_position):
+# Function to create a year column with an organized layout
+def create_year_column(ax, year_data, year_label, x_position, column_width, square_width, square_height, spacing):
     y = 4.5
 
     # Add the year title
@@ -70,47 +57,55 @@ def create_year_column(ax, year_data, year_label, x_position):
 
         y -= square_height + spacing
 
-# Create the academic plan graphic for all four years
-fig, ax = plt.subplots(figsize=(12, 8))  # Adjust the figure size here
+# Iterate over each JSON filename and create a separate plot
+for json_filename in json_filenames:
+    # Load the JSON data
+    with open(json_filename, "r") as json_file:
+        data = json.load(json_file)
 
-# Create columns, lines, and labels
-x_position = 0.0
+    # Create the academic plan graphic for all four years
+    fig, ax = plt.subplots(figsize=(12, 8))  # Adjust the figure size here
 
-# Increase the linewidth for column borders
-column_border_linewidth = 1
+    # Create columns, lines, and labels
+    x_position = 0.0
 
-for i in range(num_columns):
-    create_year_column(ax, data["SAP"][i][academic_years[i]], academic_years[i], x_position)
-    ax.axvline(x_position + column_width, color="black", linewidth=column_border_linewidth)
-    x_position += column_width
+    # Increase the linewidth for column borders
+    column_border_linewidth = 1
 
-# Set axis limits and labels
-ax.set_xlim(0, total_width)
-ax.set_ylim(0, 6)
+    academic_years = ["1st year", "2nd year", "3rd year", "4th year"]
+    column_width = 7.0  # Adjusted total width for 4 columns
+    square_width = column_width / 2.2  # Adjusted for 2 vertical columns of 5 boxes each
+    square_height = 0.8
+    spacing = (column_width - (square_width * 1)) / 9  # Increased spacing
 
-# Remove x and y axis labels and ticks
-ax.set_xticks([])
-ax.set_yticks([])
-ax.set_xlabel("")
-ax.set_ylabel("")
+    for i in range(num_columns):
+        create_year_column(ax, data["SAP"][i][academic_years[i]], academic_years[i], x_position, column_width, square_width, square_height, spacing)
+        ax.axvline(x_position + column_width, color="black", linewidth=column_border_linewidth)
+        x_position += column_width
 
-# Create a legend with distinct course type colors
-# ...
+    # Set axis limits and labels
+    ax.set_xlim(0, column_width * num_columns)
+    ax.set_ylim(0, 6)
 
-# Create a legend with distinct course type colors
-legend_elements = [
-    plt.Line2D([0], [0], marker='s', color='w', label='Core', markerfacecolor=color_mapping['Core'], markersize=15),
-    plt.Line2D([0], [0], marker='s', color='w', label='Gen Ed', markerfacecolor=color_mapping['Gen Ed'], markersize=15),
-    plt.Line2D([0], [0], marker='s', color='w', label='Major & Gen Ed', markerfacecolor=color_mapping['Major & Gen Ed'], markersize=15),
-    plt.Line2D([0], [0], marker='s', color='w', label='Elective', markerfacecolor=color_mapping['Elective'], markersize=15),
-]
+    # Remove x and y axis labels and ticks
+    ax.set_xticks([])
+    ax.set_yticks([])
+    ax.set_xlabel("")
+    ax.set_ylabel("")
 
-# ...
+    # Create a legend with distinct course type colors
+    legend_elements = [
+        plt.Line2D([0], [0], marker='s', color='w', label='Core', markerfacecolor=color_mapping['Core'], markersize=15),
+        plt.Line2D([0], [0], marker='s', color='w', label='Gen Ed', markerfacecolor=color_mapping['Gen Ed'], markersize=15),
+        plt.Line2D([0], [0], marker='s', color='w', label='Major & Gen Ed', markerfacecolor=color_mapping['Major & Gen Ed'], markersize=15),
+        plt.Line2D([0], [0], marker='s', color='w', label='Elective', markerfacecolor=color_mapping['Elective'], markersize=15),
+    ]
 
+    # Adjust the position and layout of the legend
+    ax.legend(handles=legend_elements, loc="upper center", title="Course Type", bbox_to_anchor=(0.51, 0.0), ncol=4)
 
-# Adjust the position and layout of the legend
-ax.legend(handles=legend_elements, loc="upper center", title="Course Type", bbox_to_anchor=(0.51, 0.0), ncol=4)
+    # Set the plot title
+    plt.title(f"Suggested Academic Plan for {data['Program of Study']}")
 
-# Set the plot title and display the larger graphic
-plt.title(f"Suggested Academic Plan for {data['Program of Study']}")
-plt.show()
+    # Display the plot
+    plt.show()
